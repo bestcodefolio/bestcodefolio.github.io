@@ -1,0 +1,196 @@
+body{
+    /* background-color: #376ae0; */
+    height: 100%;
+    background: url(../img/background.png) no-repeat center center fixed;
+    background-size: cover;
+    font-family: Open Sans;
+    overflow: hidden;
+}
+
+h1{
+    text-align: center;
+    margin-top: 80px;
+    color: white;
+    font-weight: bold; 
+}
+
+.container {
+    display: -ms-flexbox;
+    -ms-flex-align: center;
+        align-items: center;
+    display: flex;  
+    -ms-flex-align: center;
+        align-items: center;
+} 
+
+.container form .inner-form {
+    background-color: #fff;
+    min-width: 300px;
+    min-height: 50px;   
+    margin-left: 100%;
+    box-shadow: 0px 10px 10px 0px rgba(255, 255, 255, 0.2);
+    border-radius: 30px;
+}
+
+.exchange-alt{
+    outline: none;
+    border: none;
+    background: none;
+    cursor: pointer;
+    align-content: center;
+    margin-left: 26%;
+    font-size: 24px;
+    margin-bottom: 50px;
+    color:white;
+}
+
+@media only screen and (min-width : 768px) and (max-width : 1024px) {
+    .container form .inner-form{
+        margin-left: 40%;
+    }
+    .container form .inner-form-right{
+        margin-left: 10%;
+    }
+    .exchange-alt{
+        margin-left: 17%;
+    }
+}
+@media only screen and (min-width : 375px) and (max-width : 812px){
+    .container form .inner-form{
+        margin-left: 1%;
+    }
+    .container form .inner-form-right{
+        margin-left: 10%;
+    }
+    .exchange-alt{
+        margin-left: 17%;
+    }
+}
+
+
+.container form .inner-form-right{
+    display: block;
+
+    background-color: #fff;
+    min-width: 300px;
+    min-height: 50px;
+    margin-left: 17%;
+    box-shadow: 0px 10px 10px 0px rgba(255, 255, 255, 0.2);
+    border-radius: 30px;
+}
+.container form input {
+    outline: none;
+    height: 100%;
+    background: transparent;
+    border: 0;
+    display: block;  
+    padding: 10px 32px;
+    font-size: 16px;
+    color:#555;
+}
+
+.container form input[type=text]{
+    height: 30px; 
+    line-height: 15px;
+}
+
+.container select{ 
+    /* -webkit-appearance: none;
+    -moz-appearance: none;
+    -o-appearance: none;
+    appearance: none; */
+    border-radius: 30px;
+    outline: none;
+    border: none;
+    position: relative;
+    bottom: 50px;
+    border: 0, 30px, 30px, 0;   
+    float: right;
+    cursor: pointer;
+    height: 50px;
+    width: 70px; 
+    background: rgb(255, 255, 255);
+    text-shadow: 0 -1px 0 rgba(0, 0 ,0, .3);
+}
+
+#selectGeneral option
+{
+    overflow:hidden;
+    width:350px;
+    -moz-border-radius: 9px 9px 9px 9px;
+    -webkit-border-radius: 9px 9px 9px 9px;
+    border-radius: 9px 9px 9px 9px;
+    box-shadow: 1px 1px 11px #330033;
+    background: #fff;
+}
+
+#selectGeneral option:nth-child(3) {
+    content: " " url(http://www.blogger.com/img/icon_28_followers.png);
+    vertical-align: middle;
+}
+
+
+.popular-pairs{
+    margin-top: 145px;
+    margin-left: -50.8%;
+    color: #fff;
+}
+
+.popular-buttons{
+    position: absolute;
+    margin-left: 20%;
+    margin-top: 155px;
+}
+.popular-button{
+    /* background-image: url(../img/button.png) no-repeat; */
+    background: linear-gradient(90deg, #1ef8ed, #20c4ff);
+    outline:none;
+    margin-left: 27px;
+    margin-top: 20px;
+    width: 120px;
+    height: 35px;
+    font-size: 16px;
+    box-shadow: 0px 5px 10px 0px rgba(255, 255, 255, 0.2); 
+    border: none;
+    border-radius: 30px;
+    text-shadow: 1px 1px 20px #fff;
+    color:#000;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.container .inner-form .popular-buttons input{
+    cursor:pointer;
+    width: 200px;
+    height: 100px;
+}
+
+.popular-button:hover {
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    background: #3958e256;
+    color: #fff;
+}
+
+footer {
+    font-size: 12px;
+    position: fixed; 
+    padding: 5px;
+    bottom: 0; left:0;
+    background: #2a5172; 
+    color: #fff; 
+    width: 100%; 
+}
+
+footer ul{
+    display: inline; 
+    margin-right: 100px; 
+    padding: 3px;
+    color:#E1DFFF;
+}
+footer ul .copyright{
+    margin-left: 50%;
+    color:#CECED8;
+}

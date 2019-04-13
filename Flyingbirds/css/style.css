@@ -1,0 +1,133 @@
+body {
+    background-image: url(../img/mainground.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: linear-gradient(-135deg, #c850c0, #4158d0);
+}
+
+body #button{
+    cursor: pointer;
+}
+
+.container{
+    width: 100%;
+    margin: 0 auto;
+}
+
+.container-login{
+    width: 100%;  
+    min-height: 100vh;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrap-login{
+    width: 660px;
+    height: 500px;
+    background: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    text-align: center;
+}
+
+@media (max-width: 992px) {
+    .wrap-login {
+        width: 500px;
+        height: 400px;
+        padding: 177px 90px 33px 85px;
+    }
+    img{
+        height: 100px;
+        width: 100px;
+    }
+    button{
+        margin-left: -15%;
+    }
+}
+
+@media (max-width: 768px) {
+    .wrap-login {
+        width: 460px;
+        height: 350px;
+        padding: 100px 80px 33px 80px;
+    }
+    img{
+        height: 80px;
+        width: 80px;
+    }
+    button{
+        margin-left: -15%;
+    }
+}
+
+@media (max-width: 480px) {
+    .wrap-login {
+        width: 300px;
+        height: 300px;
+        padding: 100px 15px 33px 15px;
+    }
+    img{
+        height: 55px;
+        width: 55px;
+    }
+    button{
+        margin-left: -15%;
+    }
+}
+.container-content{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    position: absolute;
+    margin-top: 15px;
+    text-align: center;
+    margin-left: 15%;
+}
+
+.login-form-btn {
+    outline: none;
+    border:none;
+    cursor: pointer;
+    width: 200px;
+    height: 50px;
+
+    font-size: 15px;
+    color: #fff;
+    text-transform: uppercase;
+
+    border-radius: 25px;
+    background: #57b846;    
+    -webkit-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    transition: all 0.4s;
+
+    position:absolute;
+    left: 42%;
+    bottom: 18%;
+}
+
+.login-form-btn:hover {
+    background: #333333;
+}
+
+.wrap-login label{
+    cursor: pointer;
+    margin-top: 70px;
+    margin-left: 10%;
+}

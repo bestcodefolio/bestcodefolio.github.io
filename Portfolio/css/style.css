@@ -1,0 +1,11 @@
+.works-list{
+    font-size: 30px;
+    padding: 25px;
+    margin-left: 33%;
+    color: black;
+    line-height: 35px;
+}
+
+.works-list a:hover{
+    text-decoration: underline;
+}
