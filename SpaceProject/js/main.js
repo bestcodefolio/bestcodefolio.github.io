@@ -50,7 +50,7 @@ var Mercury = document.getElementById('Mercury').onclick = function(){
     bodystyle.backgroundPosition = 'fixed';
     
     planet[0].innerHTML = '<p>Mercury</p> <p>not home</p>';
-    content[0].innerHTML = '<p>Age: <span>3,7 - 3,9 billion years</span> </p> <p>Radius: <span>2439 km</span></p><p>Satelaite:   <span>NO</span></p>';
+    content[0].innerHTML = '<p>Age: <span>3,7 - 3,9 billion years</span> </p> <p>Radius: <span>2439 km</span></p><p>Satellite:   <span>NO</span></p>';
 
 }
 
@@ -61,7 +61,7 @@ document.getElementById('Venus').onclick = function(){
     bodystyle.backgroundPosition = 'fixed';
 
     planet[0].innerHTML = '<p>Venus</p> <p>not home</p>';
-    content[0].innerHTML = '<p>Age: <span>4,59 billion years</span> </p> <p>Radius: <span>6,051 km</span></p><p>Satelaite:   <span>NO</span></p>';
+    content[0].innerHTML = '<p>Age: <span>4,59 billion years</span> </p> <p>Radius: <span>6,051 km</span></p><p>Satellite:   <span>NO</span></p>';
 }
 
 document.getElementById('Earth').onclick = function(){
@@ -71,7 +71,7 @@ document.getElementById('Earth').onclick = function(){
     bodystyle.backgroundPosition = 'fixed';
 
     planet[0].innerHTML = '<p>Earth</p> <p>home</p>';
-    content[0].innerHTML = '<p>Age: <span>4,543 billion years</span> </p> <p>Radius: <span>6,371 km</span></p><p>Satelaite:   <span>Moon</span></p>';
+    content[0].innerHTML = '<p>Age: <span>4,543 billion years</span> </p> <p>Radius: <span>6,371 km</span></p><p>Satellite:   <span>Moon</span></p>';
 }
 document.getElementById('Mars').onclick = function(){
     bodystyle.backgroundSize = 'cover';
@@ -80,7 +80,7 @@ document.getElementById('Mars').onclick = function(){
     bodystyle.backgroundPosition = 'fixed';
     
     planet[0].innerHTML = '<p>Mars</p> <p>red planet</p>';
-    content[0].innerHTML = '<p>Age: <span>4,603 billion years</span> </p> <p>Radius: <span>3,389 km</span></p><p>Satelaite:   <span>Phobos and Deimos</span></p>';
+    content[0].innerHTML = '<p>Age: <span>4,603 billion years</span> </p> <p>Radius: <span>3,389 km</span></p><p>Satellite:   <span>Phobos and Deimos</span></p>';
 }
 
 document.getElementById('Jupiter').onclick = function(){
@@ -90,7 +90,7 @@ document.getElementById('Jupiter').onclick = function(){
     bodystyle.backgroundPosition = 'fixed';
     
     planet[0].innerHTML = '<p>Jupiter</p> <p>not home</p>';
-    content[0].innerHTML = '<p>Age: <span>4,503 billion years</span> </p> <p>Radius: <span>69,911 km</span></p><p>Satelaite:   <span>Io Ganymede <br> Callisto</span></p>';
+    content[0].innerHTML = '<p>Age: <span>4,503 billion years</span> </p> <p>Radius: <span>69,911 km</span></p><p>Satellite:   <span>Io Ganymede <br> Callisto</span></p>';
 }
 document.getElementById('Saturn').onclick = function(){
     bodystyle.backgroundSize = 'cover';
@@ -99,7 +99,7 @@ document.getElementById('Saturn').onclick = function(){
     bodystyle.backgroundPosition = 'fixed';
     
     planet[0].innerHTML = '<p>Saturn</p> <p>not home</p>';
-    content[0].innerHTML = '<p>Age: <span>4,503 billion years</span> </p> <p>Radius: <span>58,232 km</span></p><p>Satelaite:   <span>Titan</span></p>';
+    content[0].innerHTML = '<p>Age: <span>4,503 billion years</span> </p> <p>Radius: <span>58,232 km</span></p><p>Satellite:   <span>Titan</span></p>';
 }
 document.getElementById('Uranus').onclick = function(){
     bodystyle.backgroundSize = 'cover';
@@ -108,7 +108,7 @@ document.getElementById('Uranus').onclick = function(){
     bodystyle.backgroundPosition = 'fixed';
     
     planet[0].innerHTML = '<p>Uranus</p> <p>not home</p>';
-    content[0].innerHTML = '<p>Age: <span>4,503 billion years</span> </p> <p>Radius: <span>25,362 km</span></p><p>Satelaite:   <span>Miranda Ariel <br> Umbriel Titania <br> and Oberon</span></p>';
+    content[0].innerHTML = '<p>Age: <span>4,503 billion years</span> </p> <p>Radius: <span>25,362 km</span></p><p>Satellite:   <span>Miranda Ariel <br> Umbriel Titania <br> and Oberon</span></p>';
 }
 document.getElementById('Neptune').onclick = function(){
     bodystyle.backgroundSize = 'cover';
@@ -117,5 +117,5 @@ document.getElementById('Neptune').onclick = function(){
     bodystyle.backgroundPosition = 'fixed';
     
     planet[0].innerHTML = '<p>Neptune</p> <p>not home</p>';
-    content[0].innerHTML = '<p>Age: <span>4,503 billion years</span> </p> <p>Radius: <span>24,622 km</span></p><p>Satelaite:   <span>Triton  Nereid <br> and Protei</span></p>';
+    content[0].innerHTML = '<p>Age: <span>4,503 billion years</span> </p> <p>Radius: <span>24,622 km</span></p><p>Satellite:   <span>Triton  Nereid <br> and Protei</span></p>';
 }
