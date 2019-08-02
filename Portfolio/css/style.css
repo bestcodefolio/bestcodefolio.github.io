@@ -5,6 +5,10 @@
     text-decoration-color: #9c27b0;
 }
 
+ul {
+    padding: 0;
+}
+
 .works-list-links {
     margin: 0;
     list-style-type: none;
