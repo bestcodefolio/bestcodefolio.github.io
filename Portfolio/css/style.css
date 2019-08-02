@@ -1,15 +1,13 @@
-.row {
-    /* display: flex;
-    justify-content: center;
-    align-items: center; */
-    text-align: center;
+.works-list {
+    margin: 0;
+    font-size: 1.5rem;
+    text-decoration: underline;
+    text-decoration-color: #9c27b0;
 }
 
-.works-list {
-    font-size: 30px;
-    padding: 25px;
-    color: black;
-    line-height: 35px;
+.works-list-links {
+    margin: 0;
+    list-style-type: none;
 }
 
 .links-row {
@@ -19,6 +17,6 @@
     align-items: center;
 }
 
-.works-list a:hover{
-    text-decoration: underline;
+.works-list-links:hover{
+    text-decoration: none;
 }
