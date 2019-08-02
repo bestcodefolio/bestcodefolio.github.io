@@ -1,9 +1,22 @@
-.works-list{
+.row {
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    text-align: center;
+}
+
+.works-list {
     font-size: 30px;
     padding: 25px;
-    margin-left: 33%;
     color: black;
     line-height: 35px;
+}
+
+.links-row {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .works-list a:hover{
